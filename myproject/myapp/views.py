@@ -5,7 +5,7 @@ def home(request):
     context={
         'title':'welcome django',
         'message':"Hello",
-        'items':['python','dijango','webdev']
+        'items':['python','dijango','webdev','html']
     }
     return render(request,'myapp/home.html',context)
 
